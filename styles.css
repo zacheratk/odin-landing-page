@@ -12,7 +12,7 @@ body {
     color: #f9faf8;
     padding: 0 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -32,37 +32,57 @@ a {
 
 .footer {
     text-align: center;
+    padding: 16px;
 }
 
 .section-one {
     display: flex;
-    padding: 75px;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 300px;
+    font-size: 18px;
+    gap: 30px;
 }
 
-.section-one img {
-    width: 400px;
-    height: 250px;
+.section-one h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.section-one .image {
+    width: 500px;
+    height: 225px;
+    background-color: #7c8391;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-one button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 4px 18px;
+    padding: 8px 24px;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 
 }
 
 .section-two {
     background-color: #f9faf8;
     color: #1f2937;
-    padding: 25px;
+    padding: 25px 25%;
     text-align: center;
+}
+
+.section-two h3 {
+    font-size: 36px;
 }
 
 .section-two .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
@@ -73,8 +93,8 @@ a {
 }
 
 .section-two .cards .card .icon {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: #3882f6 3px solid;
     border-radius: 8px;
 }
@@ -82,7 +102,7 @@ a {
 .section-three {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 75px 150px;
+    padding: 75px 25%;
     margin-bottom: 0px;
     text-align: right;
 }
@@ -92,6 +112,13 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    margin: 0;
+}
+
+.section-three .attribution {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .section-four {
@@ -100,14 +127,36 @@ a {
     justify-content: center;
     align-items: center;
     padding: 75px;
+    margin: 0;
 }
 
 .section-four .box {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 25px 75px;
+    width: 50%;
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
+    font-size: 16px
+}
+
+.section-four h4, .section-four p {
+    margin: 0;
+}
+
+.section-four h4 {
+    font-size: 20px;
+}
+
+.section-four button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 6px 24px;
+    border: #f9faf8 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+
 }
